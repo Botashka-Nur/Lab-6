@@ -45,7 +45,7 @@ def write_list_to_file(filename, lst):
     with open(filename, 'w') as file:
         file.writelines("\n".join(lst))
 
-items = ["Apple", "Banana", "Cherry"]
+items = ["Mers", "Bmw", "Passat"]
 write_list_to_file("fruits.txt", items)
 
 
